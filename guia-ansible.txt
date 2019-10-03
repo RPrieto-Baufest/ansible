@@ -1,0 +1,7 @@
+en ansible.cfg no se puede usar mas "hostfile" ahora hay que usar "inventory":
+
+[defaults]
+inventory = hosts
+
+en los comandos, para dar instrucciones con sudo no se usa mas -S, se usa -b de "become"
+
